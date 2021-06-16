@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+hr {
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+
+
+.banner-block {
+    padding: 3%;
+}
+.banner {
+    width: 168px;
+    height: 239px;
+    padding-bottom: 2vh;
+}
+
+.learn-more {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* Top Skills */
+.bg-skills {
+    background: #F3FBFF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 77vh;
+}
+
+
+
+
+/* Media Queries */
+/* Phone */
+@media only screen and (max-width: 500px) {
+    .list {
+        font-size: 16px;
+        font-weight: 700;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .list-item {
+        display: flex;
+        
+    }
+/*  */
+    
+    .find-degree h3 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .find-degree h4 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .form-group {
+        width: 336px;
+        margin: 0 auto;
+    }
+    button {
+        text-align: center;
+        height: 55.33px;
+        width: 336px;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFC327;
+        background-blend-mode: overlay, normal;
+        border-radius: 30px;
+        border: #FFC327;
+    }
+    .button-text h4 {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .button {
+        text-align: center;
+    }
+/*  */
+.top-skills h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.top-skills-block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+.bg-research {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 336px;
+    height: 210px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.bg-research h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.para-text {
+    margin: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+}
+/* Tablet */
+@media only screen and (min-width: 600px) {
+    .list {
+        font-size: 16px;
+        font-weight: 700;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .list-item {
+        display: flex;
+    }
+/*  */
+.find-degree h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.find-degree h4 {
+    font-size: 12px;
+    text-align: center;
+}
+form {
+    display: flex;
+    justify-content: stretch;
+}
+.form-group {
+    width: 336px;
+    margin: 0 auto;
+}
+button {
+    text-align: center;
+    height: 55.33px;
+    width: 336px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFC327;
+    background-blend-mode: overlay, normal;
+    border-radius: 30px;
+    border: #FFC327;
+    
+}
+.button-text h4 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+.button {
+    text-align: center;
+}
+/*  */
+.top-skills h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+}
+.top-skills-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.bg-research {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 336px;
+    height: 210px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.bg-research h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.para-text {
+    margin: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+}
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .list {
+        font-size: 16px;
+        font-weight: 700;
+        list-style: none;
+    }
+    
+    .inline-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+/*  */
+.find-degree {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3em auto;
+}
+.find-degree h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.find-degree h4 {
+    font-size: 12px;
+    text-align: center;
+}
+form {
+    display: flex;
+    justify-content: stretch;
+}
+.form-input {
+    text-align: center;
+    margin-top: 1em !important;
+}
+.form-group {
+    width: 336px;
+    margin: 0 auto;
+}
+button {
+    text-align: center;
+    height: 55.33px;
+    width: 336px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFC327;
+    background-blend-mode: overlay, normal;
+    border-radius: 30px;
+    border: #FFC327;
+    
+}
+.button-text h4 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+.button {
+    text-align: center;
+}
+/*  */
+.top-skills h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.top-skills-block {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+.bg-research {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 33%;
+    height: 210px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.bg-research h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.para-text {
+    margin: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+}
